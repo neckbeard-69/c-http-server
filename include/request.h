@@ -1,11 +1,11 @@
-#inclue "../include/http.h"
+#include "../include/http.h"
 #pragma once
 
 
 typedef struct req_body {
     char *data;
     size_z length;
-} Req_body_t;
+} Request_body_t;
 
 typedef struct req_header {
     Request_header_t http_header_common; 

@@ -11,7 +11,7 @@ typedef enum http_method {
 
 } Method;
 
-typedef struct http_headers {
+typedef struct http_header {
     char *content_type;
     char *content_length;
     char *user_agent;
@@ -20,4 +20,4 @@ typedef struct http_headers {
     char *accept_encoding;
     char *connection;
     char *host;
-} Http_headers_t;
+} Http_header_t;
